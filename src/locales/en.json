@@ -1,0 +1,22 @@
+{
+  "hi": "hi",
+  "label": {
+    "username_placeholder": "Enter Your Email Address",
+    "password_placeholder": "Enter Your Password",
+    "full_name_placeholder": "Enter your full name",
+    "password_confirmation_placeholder": "Enter your Password agian ",
+    "username": "Email Address",
+    "password": "Password",
+    "name": "Name",
+    "password_confirmation": "Password Confirmation"
+  },
+  "login": {
+    "forget_password": "Forget your password ?",
+    "login": "Login",
+    "dont_have_account": "Don’t have an account? <signInLink>Create account</signInLink>"
+  },
+  "signup": {
+    "i_have_account": "Have an account? <loginLink>Login</loginLink>",
+    "create_account": "Create Account"
+  }
+}
