@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Button from "@/componets/ui/Button";
 import LocaleSwitcher from "./LocaleSwitcher";
+import MobileNavbar from "./mobileNavbar";
 
 // Hooks
 import { getTranslations } from "next-intl/server";
@@ -17,7 +18,7 @@ export default async function Navbar() {
   const tHome = await getTranslations("home");
 
   return (
-    <div className="w-full bg-transparent py-8 px-40 flex justify-between content-center items-center absolute z-20">
+    <div className="w-full bg-transparent py-8 lg:px-40 px-20 flex justify-between content-center items-center absolute z-20">
       <Image
         src={LogoText.src}
         alt={"logo"}
@@ -38,6 +39,7 @@ export default async function Navbar() {
           <GoArrowUpRight size={20} />
         </Button>
       </div>
+      <MobileNavbar />
     </div>
   );
 }

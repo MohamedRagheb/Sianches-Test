@@ -1,13 +1,12 @@
+"use client";
+
 // Components
 import Link from "next/link";
 
 // Hooks
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
-// fonts
-import {} from "next/font/google";
-
-export default async function Links() {
+export default function Links() {
   const links = [
     "home",
     "about-us",
@@ -17,10 +16,10 @@ export default async function Links() {
     "Contact-us",
   ];
 
-  const t = await getTranslations("home");
+  const t = useTranslations("home");
 
   return (
-    <div className="flex gap-6 ">
+    <div className="flex lg:flex-row flex-col gap-6">
       {links.map((link, index) => (
         <Link
           className="text-white font-normal text-base"
