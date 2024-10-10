@@ -8,6 +8,14 @@ const nextConfig = {
     env:{
         BASE_URL:process?.env?.BASE_URL
     },
+    images: {
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "sunchase.backend.aait-d.com",
+            },
+        ],
+    },
     typescript:{ignoreBuildErrors:true},
     eslint:{ignoreDuringBuilds:true}
 };

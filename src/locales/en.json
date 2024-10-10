@@ -7,8 +7,15 @@
     "password_confirmation_placeholder": "Enter your Password agian ",
     "username": "Email Address",
     "password": "Password",
+    "phone": "Phone",
+    "phone_placeholder": "Enter your Phone Number",
     "name": "Name",
-    "password_confirmation": "Password Confirmation"
+    "password_confirmation": "Password Confirmation",
+    "national_image": "National ID Image",
+    "national_image_placeholder": "Drop images here or click to upload.",
+    "message": "Message",
+    "message_placeholder": "Enter Your Message"
+
   },
   "login": {
     "forget_password": "Forget your password ?",
@@ -17,6 +24,39 @@
   },
   "signup": {
     "i_have_account": "Have an account? <loginLink>Login</loginLink>",
-    "create_account": "Create Account"
+    "create_account": "Create Account",
+    "agree_with_terms_and_conditions": "Agree to the <termsAndConditionsLink>terms and conditions</termsAndConditionsLink>"
+  },
+  "home": {
+    "home": "Home",
+    "about-us" :  "About us",
+    "services" :  "Services",
+    "properties" : "Properties",
+    "our-partners": "Our Partners",
+    "Contact-us" : "Contact Us",
+    "our-projects": "Our Projects",
+    "explore_properties": "Explore Properties",
+    "read_more": "Read More",
+    "sell_your_property_with_us": "Sell Your Property With SIANCHES ",
+    "sell_your_property": "Sell Your Property",
+    "become_partner": "Become an ambassador",
+    "register_now": "Register Now",
+    "we_will_help_you_to_find": "We'll help you find a place you'll love!",
+    "phone":"Phone",
+    "email":"E-mail",
+    "we_will_response_as_soon": "We will respond as soon as we receive your message",
+    "send_message": "Send Message",
+    "subscribe_to_new_sletter": "Subscribe to newsletter",
+    "sign_up_to_receive_the_latest_news": "Sign up to receive the latest news",
+    "subscribe": "Subscribe",
+    "follow_us": "Follow us on ",
+    "main_links": "Main Links",
+    "quick_links": "Quick Links",
+    "privacy-policy": "Privacy Policy",
+    "terms-of-use": "Terms of Use",
+    "all_rights_reserved": "All Copyrights are reserved by SIANCHES @2024",
+    "Become_an_ambassador": "Become an ambassador",
+    "recently_add": "Recently Added"
+
   }
 }

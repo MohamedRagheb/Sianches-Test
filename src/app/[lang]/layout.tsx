@@ -12,6 +12,9 @@ import { NextIntlClientProvider } from "next-intl";
 // Components
 import ToastComponent from "@/componets/Layouts/ToastComponent";
 
+// Next
+import localFont from "next/font/local";
+
 export const metadata: Metadata = {
   title: {
     template: "%s | Sianches",
@@ -19,6 +22,11 @@ export const metadata: Metadata = {
   },
   description: "Sianches Project Generated With Mohamed Ragheb ",
 };
+
+const HelveticaFont = localFont({
+  src: "../../Styles/fonts/Helvetica.woff2",
+  display: "swap",
+});
 
 export default async function RootLayout({
   children,
@@ -28,9 +36,9 @@ export default async function RootLayout({
   params: { lang: Locale };
 }>) {
   const messages = await getMessages();
-
+  const dir = params?.lang === "ar" ? "rtl" : "ltr";
   return (
-    <html lang="en">
+    <html lang={params.lang} dir={dir} className={HelveticaFont.className}>
       <body>
         <NextIntlClientProvider locale={params.lang} messages={messages}>
           {children}

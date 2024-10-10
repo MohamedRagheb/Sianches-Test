@@ -29,7 +29,7 @@ export default function useApi() {
       const jsonRes = await res.json();
 
       if (res.ok) {
-        data = jsonRes.data;
+        data = jsonRes;
       } else {
         throw jsonRes;
       }

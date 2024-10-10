@@ -28,9 +28,11 @@ const Input: React.FC<IInputProps> = ({
   const tLabel = useTranslations("label");
   return (
     <div className="space-y-2">
-      <span className="flex items-center gap-2">
-        {!!labelIcon && labelIcon} <p>{tLabel(label)}</p>
-      </span>
+      {!!label && (
+        <span className="flex items-center gap-2">
+          {!!labelIcon && labelIcon} <p>{tLabel(label)}</p>
+        </span>
+      )}
       <Controller
         control={control}
         name={name}

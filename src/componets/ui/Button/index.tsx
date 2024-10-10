@@ -11,6 +11,7 @@ const Button: React.FC<IButtonProps> = ({
   children,
   className,
   isLoading = false,
+  isDisabled = false,
   ...props
 }) => {
   return (
@@ -18,6 +19,7 @@ const Button: React.FC<IButtonProps> = ({
       className={cn(
         "bg-black-500 h-14 w-full hover:opacity-90 transition-opacity duration-150",
         !!className && className,
+        isDisabled && "pointer-events-none opacity-70",
       )}
       {...props}
     >

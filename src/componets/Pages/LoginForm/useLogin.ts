@@ -43,7 +43,7 @@ export default function useLogin() {
 
     const { data } = await serverRequest({
       endpoint: "/login",
-      body: generatedFormData,
+      body: generatedFormData as any,
       method: "POST",
     });
 

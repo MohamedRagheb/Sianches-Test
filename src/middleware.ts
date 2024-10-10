@@ -19,7 +19,6 @@ export async function middleware(request: NextRequest) {
   const locale = i18n.defaultLocale;
 
   let redirectTo;
-  const isAuth = pathname.startsWith(locale ? `/${locale}/auth` : "/auth");
 
   if (redirectTo) {
     const newResponse = NextResponse.redirect(

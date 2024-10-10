@@ -1,3 +1,60 @@
 {
-  "hi": "hi"
+  "hi": "أهلاً",
+  "label": {
+    "username_placeholder": "أدخل عنوان بريدك الإلكتروني",
+    "password_placeholder": "أدخل كلمة المرور الخاصة بك",
+    "full_name_placeholder": "أدخل اسمك الكامل",
+    "password_confirmation_placeholder": "أدخل كلمة المرور الخاصة بك ",
+    "username": "عنوان البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "phone": "هاتف",
+    "phone_placeholder": "أدخل رقم هاتفك",
+    "name": "اسم",
+    "password_confirmation": "تأكيد كلمة المرور",
+    "national_image": "صورة الهوية الوطنية",
+    "national_image_placeholder": "قم بإسقاط الصور هنا أو انقر للتحميل.",
+    "message": "رسالة",
+    "message_placeholder": "أدخل رسالتك"
+  },
+  "login": {
+    "forget_password": "نسيت كلمة المرور الخاصة بك؟",
+    "login": "تسجيل الدخول",
+    "dont_have_account": "ليس لديك حساب؟ <signInLink>إنشاء حساب</signInLink>"
+  },
+  "signup": {
+    "i_have_account": "هل لديك حساب؟ <loginLink>تسجيل الدخول</loginLink>",
+    "create_account": "إنشاء حساب",
+    "agree_with_terms_and_conditions": "توافق على <termsAndConditionsLink>الشروط والأحكام</termsAndConditionsLink>"
+  },
+  "home": {
+    "home": "بيت",
+    "about-us": "معلومات عنا",
+    "services": "خدمات",
+    "properties": "ملكيات",
+    "our-partners": "شركاؤنا",
+    "Contact-us": "اتصل بنا",
+    "our-projects": "مشاريعنا",
+    "explore_properties": "اكتشف الخصائص",
+    "read_more": "اقرأ المزيد",
+    "sell_your_property_with_us": "بيع الممتلكات الخاصة بك مع SIANCHES ",
+    "sell_your_property": "بيع الممتلكات الخاصة بك",
+    "become_partner": "تصبح سفيرا",
+    "register_now": "سجل الآن",
+    "we_will_help_you_to_find": "سنساعدك في العثور على المكان الذي ستحبه!",
+    "phone": "هاتف",
+    "email": "بريد إلكتروني",
+    "we_will_response_as_soon": "سوف نقوم بالرد بمجرد أن نتلقى رسالتك",
+    "send_message": "أرسل رسالة",
+    "subscribe_to_new_sletter": "اشترك في النشرة الإخبارية",
+    "sign_up_to_receive_the_latest_news": "قم بالتسجيل للحصول على آخر الأخبار",
+    "subscribe": "يشترك",
+    "follow_us": "تابعونا على ",
+    "main_links": "الروابط الرئيسية",
+    "quick_links": "روابط سريعة",
+    "privacy-policy": "سياسة الخصوصية",
+    "terms-of-use": "شروط الاستخدام",
+    "all_rights_reserved": "جميع حقوق الطبع والنشر محفوظة لشركة SIANCHES @2024",
+    "Become_an_ambassador": "تصبح سفيرا",
+    "recently_add": "أضيفت مؤخرا"
+  }
 }

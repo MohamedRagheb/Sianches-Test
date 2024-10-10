@@ -19,20 +19,17 @@ export const metadata: Metadata = {
 export default async function Signup() {
   const t = await getTranslations("signup");
   return (
-    <div className="flex items-center flex-col gap-[4.5rem]">
-      <Image src={LogoIcon.src} alt={"logo-icon"} height={67} width={225} />
-      <div className="w-full flex flex-col gap-16 items-center">
-        <SignupForm />
-        <span>
-          {t.rich("i_have_account", {
-            loginLink: (chunks) => (
-              <Link href="/auth/login" className="inline-block">
-                <p className="font-bold">{chunks}</p>
-              </Link>
-            ),
-          })}
-        </span>
-      </div>
+    <div className="w-full flex flex-col gap-16 items-center">
+      <SignupForm />
+      <span>
+        {t.rich("i_have_account", {
+          loginLink: (chunks) => (
+            <Link href="/auth/login" className="inline-block">
+              <p className="font-bold">{chunks}</p>
+            </Link>
+          ),
+        })}
+      </span>
     </div>
   );
 }
