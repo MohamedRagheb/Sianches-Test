@@ -23,8 +23,8 @@ export default function MobileNavbar() {
       />
       <div
         className={cn(
-          "absolute flex flex-col justify-center items-center bg-gray-700/80 gap-8 text-center overflow-y-auto duration-300 h-dvh top-0 left-0 text-lg !w-full",
-          !isOpen && "max-h-0",
+          "fixed flex flex-col justify-center items-center bg-gray-700/80 gap-8 text-center overflow-y-auto duration-300 h-dvh top-0 left-0 text-lg !w-full",
+          !isOpen && "max-h-0 hidden",
         )}
       >
         <IoClose
