@@ -7,7 +7,7 @@ import Button from "@/componets/ui/Button";
 
 // Assets
 import { GoArrowUpRight } from "react-icons/go";
-import PropertyImage from "/public/images/Property.png";
+import PropertyImage from "/public/images/property.png";
 
 export default async function SellYourProperty() {
   const tHome = await getTranslations("home");

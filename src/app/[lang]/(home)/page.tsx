@@ -15,7 +15,6 @@ export default async function Home() {
   const pageDataReq = await fetch(BASE_URL + "/home");
   const { data } = await pageDataReq.json();
 
-  console.log(data);
   return (
     <div className="flex flex-col gap-[120px]">
       <HeroSection sliders={data.sliders} />
